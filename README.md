@@ -1,5 +1,6 @@
 ### The code
 the code is script like and is execute as the goals order
+for running the code u just need the "data_path" changed to the real data dirs
 
 ### Metric
 i used a matric that calculate the ratio of the center distance multiply the height/width ratio. 
