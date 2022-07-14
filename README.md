@@ -7,4 +7,4 @@ iou, calculating TP,FP for precision recall, ny ratio metric and comparing iou v
 ### Metric
 i used a matric that calculate the ratio of the center distance multiply the height/width ratio. 
 the idea is that the detection rectangle has 2 main charcaristics that we want to compare. 
-its size comparing the  GT and the distance it is from the GT. u can see that this metrica is more strict with the predictions than IOU , the 4 parameters of the metric (width ratio, hight ratio , center width distance and center hight distance) can be calculated differently for getting diff metrics (like mean of the distance and not multiply it , etc...)
+its size comparing the  GT and the distance it is from the GT. u can see that this metrica is more strict with the predictions than IOU (i belive i need to improve it by using the Pythagorean Theorem )  , the 4 parameters of the metric (width ratio, hight ratio , center width distance and center hight distance) can be calculated differently for getting diff metrics (like mean of the distance and not multiply it , etc...)
